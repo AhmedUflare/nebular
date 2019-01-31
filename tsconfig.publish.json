@@ -18,7 +18,8 @@
     "stripInternal": true,
     "baseUrl": ".",
     "paths": {
-      "@nebular/theme": ["./.ng_build/theme"]
+      "@nebular/theme": ["./.ng_build/theme"],
+      "@angular/*": ["node_modules/@angular/*"]
     },
     "skipLibCheck": true,
     "typeRoots": [
